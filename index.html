@@ -5,24 +5,30 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="styles.css" rel="stylesheet">
       <title>The Akan Name Generator</title>
+      <script type="module">
+        import {calculate_day_of_week, generate_name} from "./script.js";
+        window.generate_name = generate_name;
+      </script>
   </head>
   <body>
     <h1>The Akan Name Generator</h1>
     <p>Kindly enter your birth date and gender here👇🏽</p>
-    <!-- the submit form -->
-     <form onsubmit="generate_name()">
-      <label for="birthday">Birthday</label>
-      <input type="date" id="birthday">
-      <label for="gender">Gender</label>
-      <select id="gender">
-        <option value="select">--select--</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-      <!-- submit button to get akan name -->
-      <button type="submit">Get Akan Name</button>
-     </form>
-     <!-- result  -->
-      <span id="result"></span>
+    <!-- the submit form inside a div/container-->
+      <div>
+        <form onsubmit="generate_name()">
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday">
+          <label for="gender">Gender</label>
+          <select id="gender">
+            <option value="select">--select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <!-- submit button to get akan name -->
+          <button type="submit">Get Akan Name</button>
+        </form>
+      </div>
+      <!-- an empty div to hold the results -->
+      <div id="result"></div>
   </body>
 </html>

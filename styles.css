@@ -14,12 +14,26 @@ h1{
 p{
     font-size: larger;
 }
-form {
-  background: whitesmoke;
-  padding: 20px;
-  margin: 20px auto;
-  width: 300px;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  font-size: large;
+div form{
+
+    background: whitesmoke;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: large;
+}
+button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: peru;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
