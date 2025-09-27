@@ -7,11 +7,18 @@
       <title>The Akan Name Generator</title>
   </head>
   <body>
-    <h1>THe Akan Name Generator</h1>
-    <p>lindly enter your birth date and gender here👇🏽</p>
+    <h1>Te Akan Name Generator</h1>
+    <p>Kindly enter your birth date and gender here👇🏽</p>
     <!-- the submit form -->
      <form onsubmit="generate_name()">
-      
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday">
+      <label for="gender">Gender</label>
+      <select id="gender">
+        
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
      </form>
   </body>
 </html>
