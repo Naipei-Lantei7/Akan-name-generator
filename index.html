@@ -6,7 +6,11 @@
       <link href="styles.css" rel="stylesheet">
       <title>The Akan Name Generator</title>
       <script type="module">
+        //
+        //importing all the functions used from the script js file
         import {calculate_day_of_week, generate_name} from "./script.js";
+        //
+        //Add the generate name function to the window object for functionality
         window.generate_name = generate_name;
       </script>
   </head>
@@ -30,5 +34,7 @@
       </div>
       <!-- an empty div to hold the results -->
       <div id="result"></div>
+      <!-- reference table for the akan names -->
+
   </body>
 </html>
