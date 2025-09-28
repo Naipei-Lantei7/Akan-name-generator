@@ -8,7 +8,7 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     color: ivory;
-    font-weight: 900;
+    font-weight: bolder;
     text-decoration: underline;
 }
 p{
@@ -37,12 +37,18 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
+h2{
+    color: black;
+    margin-top: 3%;
+}
 /* Table styling */
 table {
     margin-left: 42%;
     width: 50% auto;
-    background: white;
+    background: whitesmoke;
     border-radius: 8px;
+    color: peru;
+    font-size: large;
 }
 /* styling the columns and heading of the table */
 th, td {
