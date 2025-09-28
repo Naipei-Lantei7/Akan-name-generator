@@ -37,6 +37,16 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
-div table{
+/* .table{
+    width: 20%;
     text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: large;
+    background-color: azure;
+
 }
+.table h2{
+    font-size: larger;
+    background-color: peru;
+} */
