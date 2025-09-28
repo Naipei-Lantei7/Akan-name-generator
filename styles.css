@@ -37,16 +37,14 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
-/* .table{
-    width: 20%;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    font-size: large;
-    background-color: azure;
-
+/* Table styling */
+table {
+    margin-left: 42%;
+    width: 50% auto;
+    background: white;
+    border-radius: 8px;
 }
-.table h2{
-    font-size: larger;
-    background-color: peru;
-} */
+/* styling the columns and heading of the table */
+th, td {
+    padding: 10px;
+}
