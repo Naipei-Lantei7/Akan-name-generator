@@ -19,7 +19,7 @@
     <p>Kindly enter your birth date and gender here👇🏽</p>
     <!-- the submit form inside a div/container-->
       <div>
-        <form onsubmit="generate_name()">
+        <form onsubmit="generate_name(); return false;">
           <label for="birthday">Birthday</label>
           <input type="date" id="birthday">
           <label for="gender">Gender</label>
